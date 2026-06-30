@@ -39,8 +39,8 @@ namespace project01.Models
         public string semesterOffered { get; set; } // user input
 
 
-        public Department department { get; set; }  // navigation
-        public Instructor instructor { get; set; }  // navigation
+        public Department belonsTo { get; set; }  // navigation
+        public Instructor teaches { get; set; }  // navigation
 
 
 

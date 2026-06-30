@@ -28,6 +28,6 @@ namespace project01.Models
         [ForeignKey ("Instructor")]
         public int? headInstructorId { get; set; } // Foreign Key 
 
-        public Instructor instructor  { get; set; }  //navigation
+        public Instructor headInstructor  { get; set; }  //navigation
     }
 }

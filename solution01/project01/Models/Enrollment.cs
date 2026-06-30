@@ -32,8 +32,8 @@ namespace project01.Models
         [MaxLength(20)]
         public string status { get; set; } =  "In Progress"; // default value 
 
-        public Student student { get; set; }  // navigation
-        public Course course { get; set; }   // navigation
+        public Student enroll { get; set; }  // navigation
+        public Course forenroll { get; set; }   // navigation
 
     }
 }
