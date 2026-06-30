@@ -20,16 +20,16 @@ namespace project01.Models
 
         [Required]
         [MaxLength(150)]
-        public string email { get; set; } // user input
+        public string email { get; set; } // user input ( unique)
 
         [MaxLength(20)]
-        public string officeNumber { get; set; }  // user input
+        public string? officeNumber { get; set; }  // user input (optional)
 
         [Required]
         public DateTime hireDate { get; set; } // user input 
 
         [Required]
-        
+        [Range(0.01, double.MaxValue)]
         public decimal salary { get; set; } // user input
 
         [Required]

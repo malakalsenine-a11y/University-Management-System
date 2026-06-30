@@ -16,16 +16,18 @@ namespace project01.Models
 
         [Required]
         [MaxLength(100)]
-        public string departmentName { get; set; } // user input
+        public string departmentName { get; set; } // user input (unique)
+
+        [MaxLength(150)]
+        public string? building { get; set; } // user input (Optional)
 
         [Required]
-        [MaxLength(150)]
-        public string building { get; set; } // user input
-
+        [Range(0, double.MaxValue)]
         public decimal budget { get; set; } // user input
 
         [ForeignKey ("Instructor")]
-        public int headInstructorId { get; set; } // Foreign Key 
+        public int? headInstructorId { get; set; } // Foreign Key 
 
+        public Instructor instructor  { get; set; }
     }
 }

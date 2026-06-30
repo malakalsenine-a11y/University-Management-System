@@ -17,7 +17,7 @@ namespace project01.Models
 
         [Required]
         [MaxLength(10)]
-        public string courseCode { get; set; } // user input
+        public string courseCode { get; set; } // user input (unique)
 
         [Required]
         [MaxLength(150)]
@@ -27,15 +27,22 @@ namespace project01.Models
         [Range(1,6)]
         public int creditHours { get; set; }  // system generated
 
+        [Required]
         [ForeignKey ("Department")]
         public int departmentId { get; set; }  // foreign key
 
         [ForeignKey("Instructor")]
-        public int instructorId { get; set; }  // foreign key
+        public int? instructorId { get; set; }  // foreign key
 
         [Required]
         [MaxLength (20)]
         public string semesterOffered { get; set; } // user input
+
+
+        public Department department { get; set; }  // navigation
+        public Instructor instructor { get; set; }  // navigation
+
+
 
     }
 }
