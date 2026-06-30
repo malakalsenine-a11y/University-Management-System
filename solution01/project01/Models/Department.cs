@@ -24,6 +24,7 @@ namespace project01.Models
 
         public decimal budget { get; set; } // user input
 
+        [ForeignKey ("Instructor")]
         public int headInstructorId { get; set; } // Foreign Key 
 
     }
