@@ -8,15 +8,17 @@ using System.Threading.Tasks;
 
 namespace project01.Models
 {
-    internal class Enrollment
+    public class Enrollment
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int enrollmentId { get; set; }  // system generated
 
+        [Required]
         [ForeignKey("Student")]
         public int studentId { get; set; }  // foreign key
 
+        [Required]
         [ForeignKey("Course")]
         public int courseId { get; set; }  // foreign key
 
@@ -24,10 +26,14 @@ namespace project01.Models
         public DateTime enrollmentDate { get; set; } // user input 
 
         [MaxLength (2)]
-        public string finalGrade { get; set; } // user input
+        public string? finalGrade { get; set; } // user input (Optional)
 
         [Required]
         [MaxLength(20)]
-        public string status { get; set; }  // default value 
+        public string status { get; set; } =  "In Progress"; // default value 
+
+        public Student student { get; set; }  // navigation
+        public Course course { get; set; }   // navigation
+
     }
 }
