@@ -36,6 +36,11 @@ namespace project01.Models
         [MaxLength(50)]
         public string academicTitle { get; set; }  // user input 
 
+        public IList<Course> courses { get; set; }  // Relationships
+
+        public Department Department { get; set; }  //Relationships
+
+
 
     }
 }

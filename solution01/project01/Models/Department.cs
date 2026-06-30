@@ -29,5 +29,9 @@ namespace project01.Models
         public int? headInstructorId { get; set; } // Foreign Key 
 
         public Instructor headInstructor  { get; set; }  //navigation
+
+        public IList<Course> courses { get; set; }  // Relationships
+
+
     }
 }

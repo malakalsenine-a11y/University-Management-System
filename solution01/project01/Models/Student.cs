@@ -35,6 +35,6 @@ namespace project01.Models
         [Range(0.0, 4.0)]
         public decimal gpa { get; set; } // default
 
-
+        public IList<Enrollment> enrollments { get; set; } // Relationships
     }
 }

@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\malak\\OneDrive\\Desktop\\University Management System\\solution01\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C9D6A0C5-5CFE-1966-563C-1AF6FDF81136}|project01\\project01.csproj|c:\\users\\malak\\onedrive\\desktop\\university management system\\solution01\\project01\\models\\instructor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9D6A0C5-5CFE-1966-563C-1AF6FDF81136}|project01\\project01.csproj|solutionrelative:project01\\models\\instructor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C9D6A0C5-5CFE-1966-563C-1AF6FDF81136}|project01\\project01.csproj|c:\\users\\malak\\onedrive\\desktop\\university management system\\solution01\\project01\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C9D6A0C5-5CFE-1966-563C-1AF6FDF81136}|project01\\project01.csproj|solutionrelative:project01\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C9D6A0C5-5CFE-1966-563C-1AF6FDF81136}|project01\\project01.csproj|c:\\users\\malak\\onedrive\\desktop\\university management system\\solution01\\project01\\models\\instructor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9D6A0C5-5CFE-1966-563C-1AF6FDF81136}|project01\\project01.csproj|solutionrelative:project01\\models\\instructor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C9D6A0C5-5CFE-1966-563C-1AF6FDF81136}|project01\\project01.csproj|c:\\users\\malak\\onedrive\\desktop\\university management system\\solution01\\project01\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9D6A0C5-5CFE-1966-563C-1AF6FDF81136}|project01\\project01.csproj|solutionrelative:project01\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C9D6A0C5-5CFE-1966-563C-1AF6FDF81136}|project01\\project01.csproj|c:\\users\\malak\\onedrive\\desktop\\university management system\\solution01\\project01\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{C9D6A0C5-5CFE-1966-563C-1AF6FDF81136}|project01\\project01.csproj|c:\\users\\malak\\onedrive\\desktop\\university management system\\solution01\\project01\\models\\enrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C9D6A0C5-5CFE-1966-563C-1AF6FDF81136}|project01\\project01.csproj|solutionrelative:project01\\models\\enrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9D6A0C5-5CFE-1966-563C-1AF6FDF81136}|project01\\project01.csproj|c:\\users\\malak\\onedrive\\desktop\\university management system\\solution01\\project01\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9D6A0C5-5CFE-1966-563C-1AF6FDF81136}|project01\\project01.csproj|solutionrelative:project01\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C9D6A0C5-5CFE-1966-563C-1AF6FDF81136}|project01\\project01.csproj|c:\\users\\malak\\onedrive\\desktop\\university management system\\solution01\\project01\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,71 +34,72 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Enrollment.cs",
               "DocumentMoniker": "C:\\Users\\malak\\OneDrive\\Desktop\\University Management System\\solution01\\project01\\Models\\Enrollment.cs",
               "RelativeDocumentMoniker": "project01\\Models\\Enrollment.cs",
               "ToolTip": "C:\\Users\\malak\\OneDrive\\Desktop\\University Management System\\solution01\\project01\\Models\\Enrollment.cs",
               "RelativeToolTip": "project01\\Models\\Enrollment.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAQwB4AAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAxwCUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-30T09:37:13.164Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Course.cs",
               "DocumentMoniker": "C:\\Users\\malak\\OneDrive\\Desktop\\University Management System\\solution01\\project01\\Models\\Course.cs",
               "RelativeDocumentMoniker": "project01\\Models\\Course.cs",
               "ToolTip": "C:\\Users\\malak\\OneDrive\\Desktop\\University Management System\\solution01\\project01\\Models\\Course.cs",
               "RelativeToolTip": "project01\\Models\\Course.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAcwCMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAmwC0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-30T09:33:03.637Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Department.cs",
               "DocumentMoniker": "C:\\Users\\malak\\OneDrive\\Desktop\\University Management System\\solution01\\project01\\Models\\Department.cs",
               "RelativeDocumentMoniker": "project01\\Models\\Department.cs",
               "ToolTip": "C:\\Users\\malak\\OneDrive\\Desktop\\University Management System\\solution01\\project01\\Models\\Department.cs",
               "RelativeToolTip": "project01\\Models\\Department.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACAAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-30T09:24:14.896Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Instructor.cs",
               "DocumentMoniker": "C:\\Users\\malak\\OneDrive\\Desktop\\University Management System\\solution01\\project01\\Models\\Instructor.cs",
               "RelativeDocumentMoniker": "project01\\Models\\Instructor.cs",
               "ToolTip": "C:\\Users\\malak\\OneDrive\\Desktop\\University Management System\\solution01\\project01\\Models\\Instructor.cs",
               "RelativeToolTip": "project01\\Models\\Instructor.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwCAAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-30T09:06:19.942Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "Student.cs",
               "DocumentMoniker": "C:\\Users\\malak\\OneDrive\\Desktop\\University Management System\\solution01\\project01\\Models\\Student.cs",
               "RelativeDocumentMoniker": "project01\\Models\\Student.cs",
               "ToolTip": "C:\\Users\\malak\\OneDrive\\Desktop\\University Management System\\solution01\\project01\\Models\\Student.cs",
               "RelativeToolTip": "project01\\Models\\Student.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-30T08:26:50.72Z"
+              "WhenOpened": "2026-06-30T08:26:50.72Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",

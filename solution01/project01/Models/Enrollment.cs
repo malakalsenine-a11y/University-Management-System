@@ -33,7 +33,7 @@ namespace project01.Models
         public string status { get; set; } =  "In Progress"; // default value 
 
         public Student enroll { get; set; }  // navigation
-        public Course forenroll { get; set; }   // navigation
+        public Course has { get; set; }   // navigation
 
     }
 }
