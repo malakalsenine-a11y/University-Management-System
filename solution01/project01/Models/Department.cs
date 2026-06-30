@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace project01.Models
 {
-    internal class Department
+    public class Department
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
